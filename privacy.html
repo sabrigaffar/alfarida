@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>سياسة الخصوصية وشروط التصدير | Privacy Policy — Al-Farida Export</title>
+  <meta name="description" content="سياسة الخصوصية وحماية بيانات المستوردين لشركة الفريدة للتصدير وفرز وتعبئة الحاصلات الزراعية — مصر." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&family=Playfair+Display:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-deep: #040907;
+      --bg-surface: rgba(10, 24, 18, 0.82);
+      --border-gold: rgba(230, 179, 71, 0.28);
+      --gold: #e6b347;
+      --gold-soft: #fce092;
+      --emerald: #34d399;
+      --cyan: #38bdf8;
+      --text-main: #f8fafc;
+      --text-muted: #cbd5e1;
+      --text-dim: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 18% 12%, rgba(16, 185, 129, 0.14), transparent 42%),
+        radial-gradient(circle at 82% 18%, rgba(230, 179, 71, 0.12), transparent 40%),
+        var(--bg-deep);
+      color: var(--text-main);
+      font-family: 'Cairo', 'Plus Jakarta Sans', sans-serif;
+      line-height: 1.8;
+      padding: 24px 16px 64px;
+    }
+
+    html[dir="ltr"] body {
+      font-family: 'Plus Jakarta Sans', 'Cairo', sans-serif;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    /* Top Bar */
+    .topbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-gold);
+      border-radius: 18px;
+      padding: 14px 20px;
+      margin-bottom: 28px;
+      backdrop-filter: blur(10px);
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-title {
+      font-weight: 800;
+      font-size: 1.05rem;
+      color: #ffffff;
+    }
+
+    .brand-sub {
+      font-size: 0.78rem;
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+      font-family: inherit;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-gold);
+      color: var(--gold-soft);
+    }
+
+    .btn-outline:hover {
+      background: rgba(230, 179, 71, 0.14);
+      border-color: var(--gold);
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #f3c65f 0%, #d49821 100%);
+      border: 1px solid transparent;
+      color: #040907;
+    }
+
+    /* Hero Card */
+    .hero-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-gold);
+      border-radius: 24px;
+      padding: 32px 28px;
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(230, 179, 71, 0.14);
+      border: 1px solid rgba(230, 179, 71, 0.4);
+      color: var(--gold-soft);
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: clamp(1.65rem, 3.2vw, 2.35rem);
+      font-weight: 800;
+      line-height: 1.35;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #fff6d6 0%, #e6b347 55%, #b37d14 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    html[dir="ltr"] h1 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .lead {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      max-width: 78ch;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.82rem;
+      color: var(--text-dim);
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--gold-soft);
+      direction: ltr;
+      display: inline-block;
+    }
+
+    /* Policy Sections */
+    .sections {
+      display: grid;
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 24px 26px;
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--gold-soft);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .step-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.78rem;
+      padding: 2px 8px;
+      border-radius: 8px;
+      background: rgba(230, 179, 71, 0.16);
+      border: 1px solid rgba(230, 179, 71, 0.35);
+      color: var(--gold);
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.94rem;
+      margin-bottom: 10px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .card ul {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .card li {
+      position: relative;
+      padding-inline-start: 20px;
+      color: var(--text-muted);
+      font-size: 0.93rem;
+    }
+
+    .card li::before {
+      content: "•";
+      position: absolute;
+      inset-inline-start: 4px;
+      color: var(--emerald);
+      font-weight: 800;
+    }
+
+    .contact-box {
+      margin-top: 14px;
+      padding: 16px 18px;
+      border-radius: 14px;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(52, 211, 153, 0.3);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .contact-box a {
+      color: var(--gold-soft);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-dim);
+    }
+
+    .lang-en {
+      display: none;
+    }
+
+    html[lang="en"] .lang-ar {
+      display: none;
+    }
+
+    html[lang="en"] .lang-en {
+      display: block;
+    }
+
+    html[lang="en"] span.lang-en,
+    html[lang="en"] a.lang-en {
+      display: inline-flex;
+    }
+
+    @media (max-width: 640px) {
+      .hero-card, .card {
+        padding: 20px 18px;
+      }
+      .topbar {
+        padding: 12px 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Top Navigation -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-title lang-ar">الفريدة للتصدير وفرز وتعبئة الحاصلات الزراعية</span>
+        <span class="brand-title lang-en">Al-Farida Agricultural Export</span>
+        <span class="brand-sub lang-ar">سياسة الخصوصية وحماية بيانات المستوردين (B2B)</span>
+        <span class="brand-sub lang-en">B2B Importer Privacy Policy &amp; Export Terms</span>
+      </div>
+      <div class="topbar-actions">
+        <button type="button" id="lang-switch" class="btn btn-outline" onclick="toggleLang()">English / EN</button>
+        <a href="index.html" class="btn btn-gold">
+          <span class="lang-ar">العودة للمنصة الرئيسية</span>
+          <span class="lang-en">Back to Export Portal</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- ARABIC CONTENT -->
+    <main class="lang-ar">
+      <section class="hero-card">
+        <span class="badge">الامتثال التجاري وحماية البيانات • B2B</span>
+        <h1>سياسة الخصوصية وشروط طلبات التصدير</h1>
+        <p class="lead">
+          تلتزم شركة الفريدة للتصدير وفرز وتعبئة الحاصلات الزراعية بحماية خصوصية وسرية البيانات التجارية للشركات المستوردة ومديري المشتريات المتواصلين معنا عبر هذه البوابة.
+        </p>
+        <div class="meta-row">
+          <span>آخر تحديث: <strong class="mono">November 2026</strong></span>
+          <span>جهة التشغيل: <strong>النوبارية والإسماعيلية — جمهورية مصر العربية</strong></span>
+        </div>
+      </section>
+
+      <div class="sections">
+        <article class="card">
+          <h2><span class="step-num">01</span> البيانات التي تشاركها معنا طوعاً</h2>
+          <p>عند استخدام نموذج طلب عرض السعر التصديري (RFQ) أو التواصل المباشر عبر واتساب أو البريد الإلكتروني، قد تزودنا ببيانات عملك الأساسية فقط:</p>
+          <ul>
+            <li>اسم الشركة المستوردة واسم المسؤول أو مدير المشتريات.</li>
+            <li>البريد الإلكتروني المؤسسي ورقم الهاتف أو واتساب للتواصل التجاري.</li>
+            <li>الدولة وميناء الوصول والمواصفات المطلوبة للشحنة (المحاصيل، الكميات، التعبئة، وشروط Incoterms).</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">02</span> كيفية نقل البيانات واستخدامها</h2>
+          <p>هذه البوابة تعمل كواجهة ثابتة لا تستخدم ملفات تعريف ارتباط إعلانية (Advertising Cookies) ولا تبيع أو تشارك بيانات الزوار مع أي أطراف تسويقية خارجية.</p>
+          <ul>
+            <li>لا يتم إرسال بيانات النموذج تلقائياً إلى أي خادم خارجي؛ بل تُجهّز الرسالة على جهازك لتختار بنفسك إرسالها عبر واتساب الرسمي أو بريدك الإلكتروني.</li>
+            <li>تُستخدم بياناتك حصرياً لإعداد عروض الأسعار (FOB / CIF / CFR)، وتنسيق مستندات الشحن والفحص (مثل شهادة الصحة النباتية وEUR.1 وتحاليل MRL)، ومتابعة التعاقدات التصديرية.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">03</span> الروابط والخدمات الخارجية</h2>
+          <p>قد يتضمن الموقع روابط لخدمات خارجية مثل WhatsApp للرد الفوري أو خطوط Google Fonts لعرض النصوص. يخضع استخدامك لتطبيق واتساب أو مزود البريد الإلكتروني الخاص بك لسياسات الخصوصية الخاصة بتلك المنصات.</p>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">04</span> الاحتفاظ بالبيانات وحقوق المستوردين</h2>
+          <p>نحتفظ بالمراسلات التجارية والبيانات التعاقدية فقط للمدة اللازمة لإتمام الشحنات أو الامتثال للمتطلبات الجمركية والمحاسبية القانونية. يحق لك في أي وقت طلب الاطلاع على بيانات مراسلاتك أو تصحيحها أو حذفها نهائياً بالتواصل معنا عبر البريد الرسمي أدناه.</p>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">05</span> إخلاء مسؤولية عروض الأسعار والمواسم</h2>
+          <p>المواصفات الفنية، مواسم التوافر، ومدد الشحن البحري أو الجوي المذكورة على المنصة هي بيانات إرشادية لقطاع الأعمال (B2B). تخضع الأسعار النهائية والمقاسات وجداول التحميل للتأكيد الكتابي الرسمي في الفاتورة المبدئية (Proforma Invoice) أو عقد التوريد الموقّع.</p>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">06</span> التواصل بخصوص الخصوصية والتعاقدات</h2>
+          <p>لأي استفسار يتعلق بحماية البيانات أو لطلب حذف مراسلاتك التجارية، تواصل مباشرة مع إدارة التصدير:</p>
+          <div class="contact-box">
+            <div>البريد الرسمي: <a href="mailto:export@alfarida-eg.com" class="mono">export@alfarida-eg.com</a></div>
+            <div>واتساب التصدير: <a href="https://wa.me/201001551310" target="_blank" rel="noopener noreferrer" class="mono">+20 100 155 1310</a></div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!-- ENGLISH CONTENT -->
+    <main class="lang-en">
+      <section class="hero-card">
+        <span class="badge">B2B Data Protection &amp; Export Compliance</span>
+        <h1>Privacy Policy &amp; B2B Export Inquiry Terms</h1>
+        <p class="lead">
+          Al-Farida for Agricultural Export, Sorting &amp; Packing respects the confidentiality and commercial privacy of international importers, supermarket buyers, and trade partners communicating through this portal.
+        </p>
+        <div class="meta-row">
+          <span>Last Updated: <strong class="mono">November 2026</strong></span>
+          <span>Operations: <strong>Nubaria &amp; Ismailia, Arab Republic of Egypt</strong></span>
+        </div>
+      </section>
+
+      <div class="sections">
+        <article class="card">
+          <h2><span class="step-num">01</span> Business Information You Voluntarily Provide</h2>
+          <p>When you use our Export RFQ form or contact our Export Directorate via WhatsApp or corporate email, you may voluntarily provide standard business contact details:</p>
+          <ul>
+            <li>Importer company name and buyer / procurement officer name.</li>
+            <li>Corporate email address and business phone / WhatsApp number.</li>
+            <li>Destination country, port of discharge, and shipment requirements (crops, volumes, packing specs, and preferred Incoterms).</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">02</span> How Inquiry Data Is Transmitted &amp; Used</h2>
+          <p>This portal operates as a static B2B web interface. We do not use third-party advertising trackers, and we never sell or rent importer contact data to third parties.</p>
+          <ul>
+            <li>RFQ form inputs are formatted locally in your browser and transmitted only when you explicitly initiate a message through your own WhatsApp or email client.</li>
+            <li>Business information you send us is used strictly to prepare FOB/CIF/CFR quotations, issue shipping and compliance documentation (Phytosanitary, EUR.1, MRL reports), and coordinate export logistics.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">03</span> Third-Party Services</h2>
+          <p>This website links to external communication channels such as WhatsApp and loads typography via Google Fonts. Communications conducted on WhatsApp or via external email providers are governed by those services' respective privacy policies.</p>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">04</span> Data Retention &amp; International Importer Rights</h2>
+          <p>Commercial correspondence is retained only as long as necessary to manage active inquiries, fulfill export contracts, or meet statutory customs and accounting obligations. In line with international data protection principles (including GDPR and Egypt's Personal Data Protection Law), you may request access to, correction of, or deletion of your business contact details at any time by emailing our Export Desk.</p>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">05</span> Export Specifications &amp; Commercial Terms Disclaimer</h2>
+          <p>Product specifications, seasonal harvest windows, and maritime or air transit times displayed on this portal are provided for B2B commercial reference. Final pricing, caliber allocations, and loading schedules are subject to written confirmation via an official Proforma Invoice or signed supply contract.</p>
+        </article>
+
+        <article class="card">
+          <h2><span class="step-num">06</span> Privacy &amp; Export Desk Contact</h2>
+          <p>For data protection requests or official B2B export inquiries, please contact our Export Directorate directly:</p>
+          <div class="contact-box">
+            <div>Official Email: <a href="mailto:export@alfarida-eg.com" class="mono">export@alfarida-eg.com</a></div>
+            <div>WhatsApp Export Desk: <a href="https://wa.me/201001551310" target="_blank" rel="noopener noreferrer" class="mono">+20 100 155 1310</a></div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <span class="lang-ar">© 2026 شركة الفريدة للتصدير وفرز وتعبئة الحاصلات الزراعية. جميع الحقوق محفوظة.</span>
+      <span class="lang-en">© 2026 Al-Farida for Agricultural Export, Sorting &amp; Packing. All Rights Reserved.</span>
+    </footer>
+  </div>
+
+  <script>
+    function toggleLang() {
+      const html = document.documentElement;
+      const btn = document.getElementById('lang-switch');
+      if (html.lang === 'ar') {
+        html.lang = 'en';
+        html.dir = 'ltr';
+        btn.textContent = 'عربي / AR';
+      } else {
+        html.lang = 'ar';
+        html.dir = 'rtl';
+        btn.textContent = 'English / EN';
+      }
+    }
+  </script>
+</body>
+</html>
